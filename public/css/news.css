@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body,h1,h2,ul,li,span,i,a,img{margin:0;padding:0;font-weight: normal;}
+html,body{font-family:"Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;color:#333;}
+body{ background: #e6e6e6; text-align: center; }
+span,i{display:inline-block}
+a,a:hover{text-decoration:none;outline:0; }
+li{list-style:none}
+img{border:none}
+
+.my-container{width:1167px;margin:150px auto 100px auto; position: relative; }
+.content{border:1px solid #b2b6b6; margin-right:462px;padding:20px;min-height: 1000px;transition: all 1s;background: #fff;}
+.content.loaded{background: #fff;opacity: 1;}
+.content.loading .content-list{opacity: .5;}
+.sideNavBox{border:1px solid #b2b6b6; background: #fff;width:406px; position: absolute;top: 0;right: 0;padding:20px;min-height: 600px;transition: all .3s;}
+
+.content .title{font-size:24px;border-bottom:1px solid #b2b6b6;  text-align: left; line-height: 40px;}
+.content-list{transition: all .3s;}
+.content-list li{position: relative;border-bottom: 1px solid #ddd;  clear: both;  overflow: hidden;}
+.content-list .new-img{  position: absolute;left: 0;top: 15px; width:238px; height: 166px; }
+.content-list h4{font-size:18px; text-align: left; line-height: 40px;margin-left: 256px; font-weight: normal;margin-bottom:0;margin-top:5px;}
+.content .newlist-content{min-height: 130px;}
+.content-list p{font-size:12px; line-height: 24px; text-align: left;margin:0px 0px 5px 256px}
+.newList-footer{clear: both; text-align: left; line-height: 40px; height: 50px;color:#666;}
+.newList-footer span{  padding:0 0 0 10px; font-size: 12px;}
+.newList-footer span i{float: left;padding:0 5px 0 0;font-style: normal;color:#999;}
+.newList-footer a{float: right;color: #009fb9;font-size: 14px;}
+
+
+.sideNavBox h3{font-size: 24px;text-align: left; line-height: 40px; font-weight: normal;  padding: 0;  margin: 10px 0 20px 0;}
+.sideNavList li h4{font-size:14px; text-align: left;border-bottom:1px solid #c9caca; line-height: 40px;margin:0;cursor: pointer;}
+.sideNavList li h4 i{background:url(../img/news/right-gry-jiantou-icon.jpg) no-repeat ;width: 14px;height: 14px; display: inline-block; transition: all .3s;
+    float: left; margin-top: 14px; }
+ .sideNavList li h4 i.active{background:url(../img/news/down-red-jiantou-icon.jpg) no-repeat ;width: 20px;height: 7px;    margin-top: 17px;}
+
+.sideNavList li .left-content{display: block;}
+.sideNavList li .left-content ul li{position: relative;margin:20px 0;height: 110px;overflow: hidden;}
+.sideNavList li .left-content ul li img{ position: absolute;top:5px;left:0;background: #aaa; }
+.sideNavList li .left-content ul li h5, .sideNavList li .left-content p{text-align: left;padding: 0 0 0 139px;margin:0;}
+.sideNavList li .left-content ul li h5{font-size:16px;font-weight: normal;     margin-bottom: 5px;}
+.sideNavList li .left-content ul li p{font-size:12px; line-height: 18px;}
+
+.author-icon{background: url(/public/img/news/user-icon.jpg) no-repeat; height: 12px; padding-left: 14px !important;line-height: 12px;}
+.time-icon{background: url(/public/img/news/clock-icon.jpg) no-repeat; height: 12px;padding-left: 14px !important;line-height: 12px;}
+.count-icon{background: url(/public/img/news/eye-icon.jpg) no-repeat; height: 12px;padding-left: 20px !important;line-height: 12px;}
+.fx-icon{background: url(/public/img/news/right-jiantou.jpg) no-repeat;height: 14px;width: 7px; line-height: 16px; margin-left: 8px;}
+
+.content .text{	padding: 0 50px 50px 50px; text-align: left;text-indent: 2em;}
+.content a.back{color:#e60044;font-size:16px;}
+
+.content .loading{margin-top: 100px;}
+.left-content .loading{margin: 10px;}
+.pagination>li{cursor: pointer;}
+
+.content .img img{width: 555px;height: 400px;}
+.content .body{display: none;}

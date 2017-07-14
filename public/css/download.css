@@ -1,0 +1,125 @@
+/* zone-c5 */
+.zone-c5{
+    height: 800px;
+    padding-top: 150px;
+    overflow: hidden;
+    width:100%; 
+    background: #e6e6e6;
+}
+.zone-c5 h2{
+    color: #e60044;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.zone-c5 h3{
+    color: #e60044;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.zone-c5 ul{
+    list-style: none;
+    width: 100%;
+    margin-left: 110px;
+    
+}
+.zone-c5 ul li{
+    float: left;
+    width: 300px;
+    height: 250px;
+   
+    /*margin-left: 100px;*/
+    margin:0px auto;
+    text-align: center;    
+}
+.zone-c5 ul li .fa{
+    font-size: 60px;
+    color:#808080;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border:1px solid #808080;
+    line-height: 180px;
+    background: #fff;  
+    margin-bottom: 20px;  
+    transition: transform .5s,color .5s,font-size .5s;
+}
+.zone-c5 ul li a{
+    font-size: 16px;
+    color:#808080;
+    position: relative;
+    display: block;
+}
+.zone-c5 a:hover .fa{
+    box-shadow: 0 10px 10px #666;
+}
+.zone-c5 a:hover .fa-android{
+    color:#48ca48;
+    transform: scale(1.1);    
+   /* font-size: 80px;*/
+}
+.zone-c5 a:hover .fa-apple{
+    color:#000;
+    transform: scale(1.1);      
+}
+.zone-c5 a:hover .fa-qrcode{
+    color:#000;   
+    font-size: 1px;
+}
+.zone-c5 a .code{
+    opacity: 0;
+    position: absolute;
+    top: 78px;
+    left: 125px;
+    width: 20px;
+    height: 20px;
+    transition: all .5s;
+    margin-top: 0;
+}
+.zone-c5 a:hover .code{
+    opacity: 1; 
+    top: 32px;
+    left: 90px;
+    width: 120px;
+    height: 120px;
+   
+}
+.zone-c5 .text{
+    border:1px solid #e60044;
+    font-size: 18px;
+    padding: 10px 15px;
+    width: 360px;
+    height: 49px;
+    vertical-align: top;
+}
+.zone-c5   .btnOK{
+    vertical-align: top;
+    height: 49px;
+    width: 100px;
+    background: #e60044;
+    color: #fff;
+    border:none;
+    transition: background linear .3s;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #aaa; 
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #aaa; 
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+color: #aaa; 
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: #aaa; 
+} 

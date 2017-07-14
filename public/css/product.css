@@ -1,0 +1,233 @@
+﻿.zone {
+    overflow: hidden;
+}
+
+.zone-p0{
+    height:690px;
+}
+
+.zone-p1 {
+    height:516px;
+}
+
+.zone-p2{
+    height:1150px;
+    background-color:#e6e6e6;
+}
+
+.zone-p3{
+    height:1035px;
+}
+
+.zone-p4{
+    height:610px;
+    background-color:#e6e6e6;
+}
+
+.zone-p5{
+    height:550px;
+     background-color:#e6e6e6;
+}
+
+.head-bg{
+
+    background:url(../img/product/home-bg.jpg) no-repeat center;
+
+     background-attachment: fixed;
+    background-position: top;
+    height:690px;
+}
+
+.zone .part{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom:12px;
+    border: 1px solid #808080;   
+}
+
+.zone-p0 .part-software {
+    margin-top: -100px;
+    height: 390px;
+    background:  url(../img/product/software-img.png) no-repeat center;
+    -moz-transition: all .4s ease-in-out .1s;
+    -o-transition: all .4s ease-in-out .1s;
+    -webkit-transition: all .4s ease-in-out .1s;
+    transition: all .4s ease-in-out .1s;
+    opacity:0;
+
+}
+
+.zone-p0 .part-software.loaded{
+   margin-top: 100px;
+   opacity:1;
+}
+
+.zone-p0 .part-des{
+    text-align:center;
+    color:#fff;
+    margin:25px 220px;
+}
+
+.zone-p0 .part-des span{
+    font-size:24px;
+}
+
+.zone-p0 .part-des p{
+    margin-top:20px;
+    line-height:34px;
+     font-size:14px;
+}
+
+.zone-p1 .part-map {
+    background:#fff url(../img/product/map.png) no-repeat center;
+}
+
+.zone-p1 .part-pin2 {
+    background:#fff url(../img/product/pin2.gif) no-repeat center;
+}
+
+.zone-p2 .part-shape {
+    background:#fff url(../img/product/Shape.png) no-repeat center;
+}
+
+.zone-p2 .part-edit {
+    background:#fff url(../img/product/edit.png) no-repeat center;
+}
+
+.zone-p2 .part-clock {
+    background:#fff url(../img/product/clock.png) no-repeat center;
+}
+
+.zone-p2 .part-bubble {
+    background:#fff url(../img/product/BUBBLE.png) no-repeat center;
+}
+
+.zone-p2 .part-suitcase {
+    background:#fff url(../img/product/SUITCASE.png) no-repeat center;
+}
+
+.zone-p2 .part-database {
+    background:#fff url(../img/product/Database.png) no-repeat center;
+}
+.zone-p2 .part-database2 {
+    background:#fff url(../img/product/Database2.png) no-repeat center;
+}
+
+.zone-p3 .part-useradd {
+    background:#fff url(../img/product/userAdd.png) no-repeat center;
+}
+
+.zone-p3 .part-following {
+    background:#fff url(../img/product/FOLLOWING.png) no-repeat center;
+}
+
+.zone-p3 .part-shape121 {
+    background:url(../img/product/Shape121.png) no-repeat center;
+}
+
+.zone-p3 .part-users {
+    background:#fff url(../img/product/USERS.png) no-repeat center;
+}
+
+.zone-p3 .part-bargraph {
+    background:#fff url(../img/product/BARGRAPH.png) no-repeat center;
+}
+
+.zone-p3 .part-chart {
+    background:url(../img/product/CHART.png) no-repeat center;
+}
+
+.zone-p4 .part-tags {
+    background:#fff url(../img/product/TAGS.png) no-repeat center;
+}
+
+.zone-p4 .part-shopping {
+    background:#fff url(../img/product/SHOPPING.png) no-repeat center;
+}
+
+.zone-p4 .part-notepad {
+    background:#fff url(../img/product/NOTEPAD.png) no-repeat center;
+} 
+
+.zone-p5 .part-speech3 {
+    background:#fff url(../img/product/SPEECH3.png) no-repeat center;
+} 
+
+.zone-p5 .part-share {
+    background:#fff url(../img/product/share.png) no-repeat center;
+} 
+
+.zone-p5 .part-book {
+    background:#fff url(../img/product/BOOK.png) no-repeat center;
+} 
+
+.zone .col-area{
+    text-align:center;
+     padding:15px 30px;
+     opacity: 0;
+}
+.zone .col-area.animated{
+    opacity: 1;
+}
+
+.zone-p2 .col-area{
+    height:400px;
+}
+
+.zone-p3 .col-area{
+     padding:0px 30px;
+      height:340px;
+}
+
+.zone-p3 .p-padding{
+    height:440px !important;
+}
+
+.zone-p4 .col-area{
+    height:345px;
+}
+
+.zone-p5 .col-area{
+    height:330px;
+}
+
+.span-title{
+    text-align:center;
+    font-size:36px !important;
+    color:#808080;
+    padding-top:40px;
+    padding-bottom:60px;
+}
+
+.col-area .content{
+   font-size:14px;
+   line-height:35px;
+  /* font-weight:bold;*/
+   text-align:left;
+   color:#666;
+}
+.col-area a p{
+    font-size:24px;
+    color:#000;
+    margin-bottom:35px;
+}
+
+.border{
+    border-right:1px solid transparent;
+    transition: border-right 1s;
+}
+.border.loaded{
+    border-right:1px solid #808080;    
+}
+
+.p-padding{
+    padding-top:90px !important;
+}
+
+
+.zone a:hover{
+    text-decoration:none;
+
+}

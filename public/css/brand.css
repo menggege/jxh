@@ -1,0 +1,121 @@
+﻿
+ol,ul{list-style:none}
+
+.clearfix{clear:both;zoom:1;}
+.wrap{margin:0 auto;;width:1190px;overflow:hidden;}
+.last{background:none;border:0 none}
+
+
+.banner{height:559px;background:url(../images/banner.jpg) no-repeat 50% bottom;padding-top:90px}
+.banner .banner-inner{position:relative;height:559px;}
+.banner .a1,.banner .a2,.banner .a3,.banner .a4,.banner .a5{position:absolute;width:658px;left:50%;margin-left:-329px;top:559px;color:#fff;font-size:16px;line-height:24px;opacity:0;filter:alpha(opacity=0);}
+.banner .a1{height:58px;top:-96px;background:url(../images/a1.png) no-repeat 0 0;}
+.banner .a2{height:84px;line-height:84px;font-size:36px;font-weight:normal;background:url(../images/opacity.png) repeat-x bottom;}
+.banner .a2 i{position:absolute;display:block;width:236px;height:1px;bottom:0;left:0;border-bottom:1px solid #ffe221;}
+
+.container{height:auto;}
+.container .container-left{float:left;width:190px;padding-top:110px;}
+.container .container-right{float:right;width:836px;padding:80px 79px 100px 84px;border-left:1px solid #6e7375;}
+
+.container .container-nav{width:190px;}
+.container .container-fixed{position:fixed;top:110px;    margin-left: 134px;}
+.container .container-nav li{width:100%;height:32px;line-height:32px;clear:both;color:#333;font-size:18px;text-align:center;margin:50px 0;position:relative;cursor:pointer;}
+.container .container-nav li.current{color:#e60044;}
+.container .container-nav li span.point{border-radius: 50%;position:absolute;width: 15px;height: 15px;display: block;right: -8px;top:10px;background:#808080;transition: all .3s;}
+
+.container .container-nav li.current span.point{
+	top: -1px; right: -13px;background:#e60044;width: 26px;height: 26px;
+	-webkit-animation-name: shine;
+  animation-name: shine;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes shine {
+   0% {
+    box-shadow: 0 0 1px #e60044;
+  }
+  50% {
+    box-shadow: 0 0 7px 5px #fff,0 0 10px 10px #e60044;
+  }
+  100%{
+  	box-shadow: 0 0 1px #e60044;
+  }
+}
+
+@keyframes shine {
+   0% {
+    box-shadow: 0 0 1px #e60044;
+  }
+
+  50% {
+    box-shadow: 0 0 7px 5px #fff,0 0 10px 10px #e60044;
+  }
+  100%{
+  	box-shadow: 0 0 1px #e60044;
+  }
+}
+
+.container .container-item{height:auto;margin-top:55px;}
+.container .container-item h2{font-size:30px;color:#2d343d;border-bottom:1px solid #e9e9e9;line-height:84px}
+.container .container-item h2.current{color:#e60044;}
+.container .container-item h2 .more{color:#2d2c34;font-size:14px;float:right;}
+.container .news-list dl{width:100%;height:174;padding:26px 0;overflow:hidden;border-bottom:1px dashed #e9e9e9;}
+.container .news-list dl dt{width:185px;height:171px;overflow:hidden;float:left;}
+.container .news-list dl dd{font-size:14px;color:#999;margin-top:12px;}
+.container .news-list dl dd.title{font-size:16px;color:#333333;line-height:24px;margin-top:0;}
+.container .news-list dl dd.title span{float:right;font-size:14px;}
+
+.t2 {font-size:24px; color:#000; font-family:"Microsoft YaHei";  }
+
+.ttt3{font-size:20px; color:#000; line-height:32px; height:32px; margin-bottom:5px; font-family:"Microsoft YaHei";  }
+.ttt3 a{color:#333;font-weight: bold;}
+.ttt3 a:hover{color:#333;}
+.sm{}
+.sm p{ line-height:2em; font-size:14px; color:#000; }
+
+.news .banner{height:173px;background-position:0 -50px;padding-top:90px}
+.news .banner .banner-inner{position:relative;height:173px;line-height:173px}
+.news .banner h2{color:#fee300;font-size:48px;}
+.news .banner h2 i{font-family:Arial;font-style:normal;font-size:18px;color:#fff;margin-left:10px}
+
+.news .container .container-left{float:left;width:800px;padding:50px 0}
+.news .container .container-right{float:right;width:290px;border:0 none;padding:0}
+
+.news .news-page{height:32px;margin:50px 0 0 0;text-align:center;}
+.news .news-page a{position:relative;width:32px;height:32px;line-height:32px;display:inline-block;*zoom:1;*display:inline;margin:0 6px;cursor:pointer;font-size:14px;border:1px solid #e8e8e8;}
+.news .news-page a:hover{background-position:-96px 50%}
+.news .news-page .jp-previous,.news .news-page .jp-next,.news .news-page .jp-disabled{width:32px;height:32px;background:url(../images/index/page.png) no-repeat -32px 0;text-indent:-10000px;*text-indent:0;*font-size:0;border:0 none}
+.news .news-page .jp-previous{background-position:-32px 0;border:1px solid #ffaa8c;}
+.news .news-page .jp-previous:hover{background-position:-64px 0;border:1px solid #ff5b21;}
+.news .news-page .jp-next{background-position:-32px -32px;border:1px solid #ffaa8c;}
+.news .news-page .jp-next:hover{background-position:-64px -32px;border:1px solid #ff5b21;}
+.news .news-page .jp-previous.jp-disabled{background-position:0 0;cursor:default;border:1px solid #ededed;}
+.news .news-page .jp-next.jp-disabled{background-position:0 -32px;cursor:default;border:1px solid #ededed;}
+.news .news-page .jp-current{color:#FF4242;font-weight:bold;}
+
+.news .news-other{margin:50px 0}
+.news .news-other h3{color:#333;font-size:18px;line-height:42px;border-bottom:1px solid #e9e9e9;}
+.news .news-other ul li{border-bottom:1px dashed #e9e9e9;font-size:14px;line-height:48px;padding-left:20px;background:url(../images/dot.jpg) no-repeat 2px center;}
+.news .news-other ul li a,.news .news-other ul li span{color:#777777;}
+.news .news-other ul li a:hover{color:#0561b4}
+.news .news-other ul li span{float:right;}
+
+.news .new-header{border-bottom:1px solid #e9e9e9;}
+.news .new-header h2{font-size:30px;color:#333;}
+.news .new-header p{color:#777777;font-size:14px;padding:16px 0}
+.news .news-body{font-size:14px;color:#777777;padding:20px 0;line-height:28px}
+
+.news .news-relation{margin-top:50px}
+.news .news-relation h3{color:#ef5d2a;font-size:18px;line-height:40px}
+.news .news-relation ul li{padding-left:40px;background:url(../images/dot.jpg) no-repeat 20px center;}
+.news .news-relation ul li a{color:#777777;}
+.news .news-relation ul li a:hover{color:#0561b4}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px){
+      .news .container .container-left{width:720px}
+      .news .container .container-right{margin-right:100px}
+}
+

@@ -1,0 +1,192 @@
+#ScrollToTop {
+    cursor: pointer;
+    position: fixed;
+    _position: absolute;
+    z-index: 4;
+    right: 36px;
+    bottom: 49px;
+    display: block;
+    width: 42px;
+    height: 42px;    
+    border-radius: 49px;
+    background: #df0031 url(../img/icoUp.png) center center no-repeat;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
+    transition:all 250ms ease-in-out;
+    -moz-transition: bottom 250ms ease-in-out;
+    -webkit-transition: bottom 250ms ease-in-out;
+}
+
+#ScrollToTop.Offscreen {
+    bottom: -100px;
+    transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    -webkit-transition-duration: 250ms;
+}
+
+.zone-consult{
+    cursor: pointer;
+    position: fixed;
+    _position: absolute;
+    z-index: 4;
+    right: 36px;
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+    color:#fff;
+    width: 42px;
+    height: 42px;    
+    border-radius: 49px;
+    background: #df0031;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
+    transition:all .8s ease-in-out;
+    -moz-transition: bottom 250ms ease-in-out;
+    -webkit-transition: bottom 250ms ease-in-out;
+}
+
+.zone-consult .icon{
+    transition: all 250ms ease-in-out;
+    background: url("/public/img/index/arror-icon.png");
+    height: 24px;
+    width: 24px;
+    margin: 8px auto;
+    transform:scale(.8);
+}
+.qq{
+    bottom: 140px;
+}
+.qq .icon-position{
+   
+}
+.qq:hover .icon{
+    transform:scale(1);
+}
+
+.ww{
+    bottom: 95px;
+}
+.ww .icon-position{
+    background-position: -40px 0px;
+}
+.ww:hover .icon{
+    transform:scale(1);
+}
+
+.tel{
+    bottom: 185px;
+}
+.tel .icon-position{
+    background-position: -80px 0px;
+}
+.tel:hover .icon{
+    transform:scale(1);
+}
+
+.my-popover{
+    position: fixed;
+    font-size: 12px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #999;
+    border-radius:5px;
+    padding: 0px 15px;
+    box-shadow: -3px 3px 5px rgba(0,0,0,.25);
+    right: 88px;
+}
+
+.my-popover .left-arrows{
+    position: absolute;
+    right: -20px;
+    margin-top: -11px;
+    top: 50%;
+    border-color: transparent;
+    border-width: 10px;
+    border-left-color: #999;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+}
+
+.my-popover .left-arrows:after{
+    content: " ";
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+    position: absolute;
+    display: block;
+    right: -8px;
+    width: 10px;
+    top: -10px;
+    height: 10px;
+}
+
+ .qq .popover-qq{
+     bottom: 85px;
+     display: none;
+}
+
+ .tel .popover-tel{
+    bottom: 125px;
+    display: none;
+}
+
+ .qq:hover .popover-qq{
+    display: block;
+}
+
+ .tel:hover .popover-tel{
+    display: block;
+}
+
+.my-popover .area{
+    width: 85px;
+    float: left;
+    text-align: center;
+}
+
+.my-popover .c{
+    height:60px;
+    width:60px;
+    margin:0px auto;
+    background: url("/public/img/index/shortcut.png") no-repeat;
+    transition: all 1.5s;
+    transform:scale(1);
+    border-radius:50%;
+}
+
+.popover-qq .c1{
+    background-position: -1px -1px;
+}
+
+.popover-qq .c2{
+   background-position: -71px -1px;  
+}
+
+.popover-tel .c1{
+    background-position: -1px -71px;
+}
+
+.popover-tel .c2{
+    background-position: -71px -71px;
+}
+
+.popover-qq .c1:hover{
+    transform:scale(1.2);
+}
+.popover-qq .c2:hover{
+    transform:scale(1.2);
+}
+.popover-tel .c1:hover{
+    transform:scale(1.2);
+}
+.popover-tel .c2:hover{
+    transform:scale(1.2);
+}
+
+.clear-left{
+    clear: left;
+    color: #e60044;
+}
